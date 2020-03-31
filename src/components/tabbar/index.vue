@@ -52,9 +52,9 @@ export default {
     created() {
         if (this.$route.name == 'index') {
             this.active = 0;
-        } else if (this.$route.name == 'power') {
+        } else if (this.$route.name == 'product') {
             this.active = 1;
-        } else if (this.$route.name == 'personal') {
+        } else if (this.$route.name == 'myPages') {
             this.active = 2;
         }
     },

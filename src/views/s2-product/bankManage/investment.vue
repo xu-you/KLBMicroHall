@@ -152,7 +152,7 @@
             @close="handleCloseAble"
         >
             <div class="title">请输入交易密码</div>
-            <div class="sub-title">向优途钱包充值</div>
+            <div class="sub-title">充值</div>
             <div class="recharge-num">￥{{ value | moneyFormatter }}</div>
             <grid @change="recharge" :show="payShow" />
         </van-popup>
