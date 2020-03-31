@@ -1,0 +1,56 @@
+html, body
+    width:100%;
+    height:100%;
+    font-family:PingFangSC-Semibold,PingFang SC;
+body
+   /* background rgba(243,245,249,1); */
+/* 安全键盘 */
+.ccsk-input
+    text-align: left;
+    padding: 0 !important;
+    line-height: 0.64rem !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    &.focus
+        box-shadow: none !important;
+
+// 公共底部按钮
+.btn-box
+    margin-top 45px
+    margin-bottom 24px
+    padding 0 20px
+
+// 自定义hariline,用于被表单验证组件包裹的v-cell或v-field
+.custom-hairline-bottom
+    position relative
+    display flex
+.custom-hairline-bottom::after
+    position: absolute;
+    box-sizing: border-box;
+    content: ' ';
+    pointer-events: none;
+    right: 0;
+    bottom: 0;
+    left: 0.4rem;
+    border-bottom: 1px solid #ebedf0;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+.title-info
+    font-size:14px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:25px;
+.title-18
+    font-size:18px;
+    font-family:PingFangSC-Semibold,PingFang SC;
+    font-weight:600;
+    color:rgba(51,51,51,1);
+    line-height:30px;
+
+.footer_btn
+    width 300px
+    border-radius 35px
+    background: linear-gradient(90deg, #ff5400 0%, #ff8f00 100%) !important;
+    color: #fff !important;

@@ -1,0 +1,26 @@
+import Vue from 'vue';
+import Header from './Header';
+import Footer from './Footer';
+import Loading from './Loading';
+import { Tabbar, TabbarItem, Button, Swipe, SwipeItem, Tab, Tabs } from 'vant';
+import { RadioGroup, Radio } from 'vant';
+import { PasswordInput, NumberKeyboard } from 'vant';
+import { Divider, Icon, ActionSheet } from 'vant';
+
+Vue.use(PasswordInput);
+Vue.use(NumberKeyboard);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Button);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(ActionSheet);
+Vue.use(Header);
+Vue.use(Footer);
+Vue.use(Icon);
+Vue.use(Loading);
+Vue.use(Divider);
